@@ -1,0 +1,19 @@
+include README.md
+include LICENSE
+include DOCUMENTATION.md
+include requirements.txt
+include requirements-dev.txt
+include pytest.ini
+recursive-include promptopt *.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include notebooks *.ipynb
+prune **/__pycache__
+prune build
+prune dist
+exclude .gitignore
+exclude CLAUDE.md
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.swp
+global-exclude .DS_Store

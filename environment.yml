@@ -1,0 +1,29 @@
+name: promptopt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pip:
+      - openai>=1.0.0
+      - anthropic>=0.3.0
+      - dspy-ai>=2.0.0
+      - pydantic>=2.0.0
+      - pyyaml>=6.0
+      - tqdm>=4.62.0
+      - requests>=2.26.0
+      - tenacity>=8.0.0
+      - rich>=10.0.0
+      - pytest>=7.0.0
+      - pytest-cov>=3.0.0
+      - black>=22.0.0
+      - isort>=5.10.0
+      - mypy>=0.990
+      - flake8>=4.0.0
